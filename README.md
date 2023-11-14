@@ -70,3 +70,18 @@ easier to interpret and understand.
 Shallow learning algorithms aim to find patterns and relationships in the input data to make predictions or decisions.
 These algorithms often rely on handcrafted features extracted from the data and utilize simple mathematical models for
 learning and inference.
+
+## Neural Language Model
+Word embeddings were proposed to tackle what's known as the curse of dimensionality, a common problem in statistical 
+langauge modeling.
+
+It turns out that the method could train a neural network such that each training sentence could inform the model about
+a number of semantically available neighboring words, which was known as distributed **_representation of words_**. \
+The neural network not established relationships between different words, but also it preserved relationships in terms
+of both **_semantic and syntactic properties_**.
+
+This introduces a neural network architecture approach that laid the foundation for many current approaches. \
+This neural network has 3 components:
+1. An **embedding layer** that generates word embedding, and the parameters are shared across words.
+2. A **hidden layer** of one or more layers, which intoduced non-linearity to the embeddings.
+3. A **softmax function** that produces probability distribution over all the words in the vocabulary.
