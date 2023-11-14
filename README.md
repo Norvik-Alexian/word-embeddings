@@ -60,3 +60,13 @@ The reasons we use neural networks to create word embeddings are:
 2. It can be used as an input to supervised learning tasks.
 3. It creates a mapping of discrete variables, such as words to a vector, of continuous variables.
 4. It also tackles the curse of dimensionality.
+
+### What is shallow algorithm?
+Shallow learning, also known as shallow machine learning or traditional machine learning, refers to a class of machine
+learning algorithms that typically involve a single layer of data transformation and learning. Unlike deep learning models,
+which are composed of multiple layers of interconnceted nodes, shallow learning models have a simpler structure and are
+easier to interpret and understand.
+
+Shallow learning algorithms aim to find patterns and relationships in the input data to make predictions or decisions.
+These algorithms often rely on handcrafted features extracted from the data and utilize simple mathematical models for
+learning and inference.
